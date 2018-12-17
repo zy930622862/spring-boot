@@ -22,6 +22,7 @@ public class EmpController {
     @RequestMapping("/queryAll")
     public List<Emp> queryAll() {
         List<Emp> emps = empService.queryAll();
+        System.out.println("sdfgdsgdfgdfgdfg");
         return emps;
     }
 
